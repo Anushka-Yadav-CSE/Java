@@ -17,9 +17,8 @@ public class Income {
             if (age > 18 && age < 60) {
                 if (income > 0) {
                     if (income <= 250000) {
-                        // Calculation
-                        double tax = 0.0;
-                        double taxableIncome = income + tax;
+                        // Calculation        
+                        double taxableIncome = income;
                         // Output
                         System.out.println("Taxable Income: " + taxableIncome); 
                     }                    
@@ -41,7 +40,7 @@ public class Income {
                         double tax = (income - 1000000) * 30 / 100.0 + 94000;
                         double taxableIncome = income - tax;
                         // Output
-                        System.out.println("Txable Income: " + taxableIncome);
+                        System.out.println("Taxable Income: " + taxableIncome);
                     }
                 }
                 else {                     

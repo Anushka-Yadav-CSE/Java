@@ -1,5 +1,5 @@
 /* A program to find and display all the odd numbers from 1 to 10 by using the continue in a 
-while loop.*/
+ do-while loop.*/
 public class OddNumbers {
     public static void main(String[] args) {
         int a = 0;

@@ -12,7 +12,7 @@ public class Expressions1 {
         System.out.print("Enter the value of c: ");
         double c=in.nextDouble();
         double y=((x+3)/6)-((2*x+5)/3);
-        double d=(a*a + b*b + c*c)/(a*b*c);
+        double d=(a*a + b*b + c*c)/ (a*b*c);
         System.out.println("The answer of 1st expression is " + y);
         System.out.println("The answer of 2nd expression is " + d);
         }
