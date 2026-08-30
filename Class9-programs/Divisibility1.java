@@ -4,7 +4,7 @@ public class Divisibility1 {
     public static void main(String[] args) {
         try (Scanner in = new Scanner(System.in)) {
             int sum = 0;
-            // for loop to enter 20 different numbers from the user.
+            // for loop to enter 20 numbers from the user.
             for (int i = 0; i < 20; i++) {
                 System.out.println("Enter the numbers: ");
                 int num = in.nextInt();
