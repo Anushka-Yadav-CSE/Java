@@ -1,4 +1,11 @@
 // A program to print the pattern.
+// The Pattern is:
+// 5 4 3 2 1
+// 4 3 2 1
+// 3 2 1
+// 2 1
+// 1
+
 public class Pattern4 {
     public static void main(String[] args) {
         System.out.println("The pattern is");
