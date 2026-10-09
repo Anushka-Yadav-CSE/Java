@@ -8,16 +8,18 @@ public class Series9 {
             // Taking input from the user.
             System.out.print("Enter the value of n: ");
             int n = in.nextInt();
-            // Loops to calculate the sum of the series.
-            for (int i = 1; i <= n; i++) {
-                f = 0;
-                for (int j = 1; j <= i; j++) {
-                    f = f + j;
+            if ( n > 0) {
+                // Loops to calculate the sum of the series.
+                for (int i = 1; i <= n; i++) {
+                    f = 0;
+                    for (int j = 1; j <= i; j++) {
+                        f = f + j;
+                    }
+                    s = s + 1.0 / (double) f;
                 }
-                s = s + 1.0 / (double) f;
+                // Printing the result.
+                System.out.println("Sum of the series S = " + s);
             }
-            // Printing the result.
-            System.out.println("Sum of the series S = " + s);
         }
     }
 }
